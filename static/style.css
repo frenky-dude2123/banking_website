@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.balance-card {
+    background: #111827;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #eef2ff;
+    cursor: pointer;
+}
+
+.flash {
+    background: #dcfce7;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
